@@ -1,0 +1,93 @@
+.header{
+    background-color: #EDF2EC;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 40px 0px 39px;
+}
+.header__logo{
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 12px 15px 0px;
+}
+.logo_img{
+    width: 20px;
+    height: 20px;
+}
+.logo_name{
+    font-family: 'Inika';
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.header__burger{
+    display: none;
+    width: 40px;
+    height: 24px;
+    position: relative;
+    flex-direction: column; 
+
+    &::before,
+    &::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #717171;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+    &::before{
+        top: 0;
+    }
+    &::after{
+        bottom: 0;
+    }
+}
+#burger__trigger{
+    display: none;
+}
+
+.burger__line{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #717171;
+    transition: all 0.3s ease 0s;
+    
+}
+.line_1{
+    top: 8px;
+}
+.line_2{
+    top: 16px;
+}
+
+.menu__items{
+    display: flex;
+    list-style: none;
+
+    & *:not(:last-child){
+        padding-right: 46px;
+    }
+}
+.menu__item{
+    text-decoration: none;
+    font-family: 'Inika';
+    font-size: 16px;
+    color: #010201;
+    transition: 1s;
+
+
+    &:hover{
+        font-weight: 400;
+        color: #E06733;
+        transition: 0.7s;
+    }
+}
+
+

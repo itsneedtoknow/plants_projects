@@ -1,0 +1,54 @@
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    align-items: center;
+}
+.footer__copyright{
+    display: flex;    
+    font-size: 20px;
+    line-height: 250%;
+    color: #000000;
+
+    & >*:not(:last-child){
+        padding-right: 20px;
+    }
+}
+
+.footer__RSlink{
+    font-size: 20px;
+    line-height: 250%;
+    color: #000000;
+}
+._link{
+    text-decoration: none;
+    color: #000000;
+
+    &:hover{
+        cursor: pointer;
+        color: #E06733;
+        transition: 0.7s;
+    }
+}
+
+.footer__socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    & >*:not(:last-child){
+        margin-right: 20px;
+    }
+    & >*:not(:nth-child(2)){
+        padding: 2.7px;
+    }
+}
+
+.facebook{
+    padding: 2.67px 7.45px;
+}
