@@ -1,0 +1,109 @@
+/* ---------------TRANSFER 600px------------------ */
+@media (max-width: 601px){
+    ._container{
+        max-width: 540px;
+    }
+    .welcome__img{
+        display: none;
+    }
+    .welcome__content{
+        max-width: 500px;
+    }
+    /* ---------------ABOUT SECTION--------------- */
+    .about__container{
+        padding-bottom: 60px;
+    }
+     .about__container >*:not(:last-child){
+         margin-bottom: 20px;
+     }
+     .about__content {
+         display: flex;
+        flex-direction: column;
+         align-items: center;
+     }
+     .about__header {
+         font-size: 30px;
+         line-height: 35px;
+         max-width: 500px;
+     }
+     .about__text {
+         max-width: 500px;
+         text-align: justify;
+     }
+     .about__img {
+         max-width: 200px;
+     }
+     /* --------------SERVICES ---------------*/
+     .services__header__buttons{
+        max-width: 370px;
+        flex-wrap: wrap;
+     }
+     .services__header__buttons > *:not(:last-child){
+        margin-right: 10px;
+     }
+     .services__header__buttons :nth-child(3){
+        margin-top: 9px;
+     }
+     /* .services__list{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+     }
+     .services__list > *:not(:nth-child(2n)) {
+        margin-right: 0px;
+        margin-bottom: 34px;
+     } */
+     .service__text{
+         padding: 9px 39px 19px;
+     }
+     .service_img {
+     width: 279px;
+     height: 300px;
+     }
+     /* -------------------PRICES---------------------- */
+
+    .prices__container {
+        padding: 25px 20px 40px 20px;
+    }
+    .prices__header__name {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+    }
+    .prices__list{
+        padding: 29px 22px;
+    }
+    .price__item{
+        padding: 0 45px 0 30px;
+    }
+    .item__title{
+        font-size: 15px;
+        min-width: 89px;
+        padding-right: 0;
+    }
+    .CTA {
+        max-width: 296px;
+    }
+    .CTA > *:not(:last-child){
+        margin-bottom: 25px;
+    }
+    .item__title::after{
+        /* content: url(/plants/img/prices/accordion_btn.svg);
+        position: absolute; */
+        right: -25px;
+        top: 15;
+    }
+    .CTA__text {
+        font-size: 20px;
+        line-height: 140%;        
+        padding-top: 99px;
+    }     
+    .CTA_btn{
+        margin-bottom: 34px;
+        font-size: 15px;
+        padding: 8px 22px;
+    }
+    .CTA_bg {
+        max-height: 174px;    
+    }
+}

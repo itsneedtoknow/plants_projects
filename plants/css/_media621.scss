@@ -1,0 +1,49 @@
+/* ---------------TRANSFER 620px------------------ */
+@media (max-width: 621px){
+    ._container{
+        max-width: 580px;
+    }
+    .menu__item{
+        font-size: 14px;
+    }
+    .menu__items *:not(:last-child){
+        padding-right: 15px;
+    }
+     /* ---------------WELCOME SECTION--------------- */
+     .welcome__container{
+        padding: 24px 25px;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    .welcome__img{
+        max-width: 240px;
+    }
+    .welcome__content{
+        max-width: 330px;
+    }
+    .welcome__content > *:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .welcome__header{
+        font-size: 30px;
+        line-height: 35px;
+    } 
+    /* --------------SERVICES ---------------*/
+    .services__list{
+        grid-template-columns: 1fr;
+        
+    }
+        /* .services__list > *:not(:nth-child(2n)) {
+       margin-right: 50px;
+    } */
+    .service__card{
+        margin-bottom: 34px;
+    }
+    .service__text{
+        padding: 9px 24px 19px;
+    }
+    .service_img {
+    width: 250px;
+    height: 300px;
+    }
+}
